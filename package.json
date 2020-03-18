@@ -1,0 +1,15 @@
+{
+  "name": "solitary",
+  "version": "1.0.0",
+  "description": "javaScript solitary game",
+  "main": "solitary.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Milena Tes",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1"
+  }
+}

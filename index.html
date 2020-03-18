@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+    	<title>Solitary</title>
+    	<meta charset="utf-8">
+    	<script src="./src/script.js" defer></script>
+    	<link href="./style/style.css" rel="stylesheet">
+    </head>
+	<body>
+		<div class="gameTable">
+			<div class="top">
+				<div class="stackContainer container">
+					<div class="stack placeholder" data-value="hidden"></div>
+					<div class="stack placeholder" data-value="visible"></div>
+				</div>
+				<div class="suitsContainer container">
+				</div>
+			</div>
+			<div class="tableContainer container">
+			</div>
+		</div>
+
+		<template>		
+			<div class="tableColumn placeholder" data-column-index=""></div>
+			<div class="suitColumn placeholder" data-suit=""></div>
+			<div class="cardContainer" draggable="false">
+				<div class="card" data-suit="" data-value="">
+				</div>
+			</div>
+
+		</template>
+
+	</body>
+</html>

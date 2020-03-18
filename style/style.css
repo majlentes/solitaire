@@ -1,0 +1,88 @@
+body {
+	background-color: #1D4225;
+}
+
+.gameTable {
+	margin: auto;
+	max-width: 660px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.top {
+	height: 150px;
+	display: flex;
+	width: 100%;
+}
+
+.stackContainer {
+	width: 210px;
+	align-self: left
+}
+
+.suitsContainer {
+	margin-left: 60px;
+	width: 390px;
+	align-self: right
+}
+
+.card {
+	width: 56px;
+	height: 86px;
+	border-radius: 6px;
+	background-color: white;
+	cursor: pointer;
+	background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2px;
+    font-weight: 600;
+    box-shadow: -1px -1px 3px #122816;
+}
+
+[data-suit='Hearts']{
+	color: #930E0E;
+	background-image: url("hearts.jpg");
+}
+
+[data-suit='Diamonds']{
+	color: #930E0E;
+	background-image: url("diamonds.jpg");
+}
+
+[data-suit='Clubs']{
+	color: black;
+	background-image: url("clubs.jpg");
+} 
+[data-suit='Spades']{
+	color: black;
+	background-image: url("spades.jpg");
+}
+
+.hidden {
+	background-image: url("card.jpg");
+}
+
+.tableContainer .card {
+	position: relative;
+	margin-bottom: -70px;
+}
+.top .card {
+	position: fixed;
+	margin-top: 0px;
+}
+
+.placeholder {
+	width: 62px;
+	height: 92px;
+	margin-top: 30px;
+	border-style: solid;
+	border-radius: 8px;
+	border-width: 2px;
+	border-color: #23502C;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
