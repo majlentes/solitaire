@@ -11,6 +11,6 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^7.0.1",
-    "minimist": ">=0.2.1"
+    "minimist": ">=1.2.6"
   }
 }
